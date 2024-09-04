@@ -1,0 +1,23 @@
+table{
+    width: 80%;
+    height: 10%;
+    background-color: white;
+}
+
+thead{
+
+    background-color: rgb(89, 155, 253);
+    color: white;
+}
+
+.bimestres{
+    background-color: rgb(170, 170, 170);
+}
+
+.rodape{
+    background-color: rgb(250, 200, 107);
+}
+
+.notaRuim{
+    color: red;
+}

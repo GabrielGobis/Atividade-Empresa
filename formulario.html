@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade I Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="LogoOdonto.png" alt="Logo Odonto">
+        </div>
+        <div class="navegacao">
+            <nav class="links">
+                <a href="/index.html">Home</a>       
+                <a href="/servicos.html">Serviços</a>
+                <a href="/formulario.html">Contatos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="formulario">
+            <form>
+                <div class="informacoes">
+                    <h1>Cadastro</h1>
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" minlength="3" required>
+
+                <br><br>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required>
+
+                <br><br>
+
+                    <label for="dataNascimento">Data de Nascimento:</label>
+                    <input type="date" name="dataNascimento" id="dataNascimento" minlength="2006-01-01" required>
+
+                <br><br>
+
+                    <label for="genero">Genêro:</label>
+                    <input type="radio" name="genero" id="m" required> Masculino
+                    <input type="radio"  name="genero" id="f" required> Feminino
+
+                <br><br>
+
+                    <label for="mensagem">Digite sua mensagem:</label>
+                    <textarea name="mensagem" cols="30" rows="10"></textarea>
+
+                <br><br>
+
+                    <label for="telefone">Telefone</label>
+                    <input type="number" name="telefone" id="telefone" maxlength="11" required>
+                    
+                <br><br>
+
+                    <label for="contato">Escolha uma forma de contato:</label>
+                    <input type="checkbox" name="contato" id="tel"> Telefone
+                    <input type="checkbox" name="contato" id="gmail"> Gmail
+                    <input type="checkbox" name="contato" id="whats"> Whatsapp
+
+                <br><br>
+
+                    <label for="horario">Qual turno você prefere ser atendido?</label>
+                    <select name="horario">
+                        <option value="manha">Manhã</option>
+                        <option value="tarde">Tarde</option>
+                        <option value="noite">Noite</option>
+                    </select>
+
+                <br><br>
+
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29319.40837668696!2d-51.257959149999984!3d-23.282136699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb59f61165866d%3A0x39f606e19c41cdfd!2zQ2FtYsOpLCBQUg!5e0!3m2!1spt-BR!2sbr!4v1724954907335!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+            <div class="contatos">
+                <h1>CONTATOS</h1>
+                <br>
+                    <div>
+                        <a href=""><img src="instagram.png" alt=""></a>@Odonto Plus  
+                    </div>
+                    <div>
+                        <a href=""><img src="gmail.png" alt=""></a>odontoplus@gmail.com
+                    </div>
+                    <div> 
+                        <a href=""><img src="" alt=""></a>(43) 12345-1234
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <p>@ Copyright Odonto Plus - 2024</p>
+    </footer>
+</body>
+</html>

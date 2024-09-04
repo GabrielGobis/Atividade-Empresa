@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    font-size: 16px;
+    background-color: #c5e8ee;
+    height: 100vh;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #a1d7df;
+    height: 150px;
+}
+
+header .logo{
+    padding: 30px;
+    background-color: white;
+}   
+
+header .navegacao .links{
+    align-items: center;
+    display: flex;
+    padding: 30px;
+}
+
+header .navegacao .links a{
+    margin: 25px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: .5s;
+}
+
+header .navegacao .links:hover a{
+    opacity: .5;
+}
+
+header .navegacao .links a:hover{
+    opacity: 1;
+    background-color: #2d9cac;
+    transition: .3s;
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+section .Odonto{
+    width: 1000px; height: 450px;
+    margin: 40px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #247988;
+}
+
+section{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+section .texto{
+    box-shadow: 0 0 20px #247988;
+}
+
+section h1, h2{
+    font-weight: bold;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+section div{
+    margin: 40px 40px 180px 40px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+section hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section .texto .paragrafo{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 15px;
+
+}
+
+section .video{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+footer div{
+    justify-content: center ;
+}
+
+footer a img{
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+}
+
+footer div p{
+
+    font-size: 20px;
+
+}
